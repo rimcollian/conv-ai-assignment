@@ -5,5 +5,5 @@ rank_bm25==0.2.2
 sentence-transformers==2.2.2
 torch==2.1.2
 transformers==4.41.2
-huggingface_hub==0.23.0
+huggingface_hub==0.14.1
 pyarrow==14.0.2

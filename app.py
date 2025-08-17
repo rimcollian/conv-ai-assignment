@@ -8,6 +8,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from sentence_transformers import SentenceTransformer
 from transformers import AutoTokenizer, AutoModelForSequenceClassification, AutoTokenizer, AutoModelForCausalLM, pipeline
+from huggingface_hub import hf_hub_download
+path = hf_hub_download(repo_id="...", filename="...")
 import torch
 
 # -------------------------
